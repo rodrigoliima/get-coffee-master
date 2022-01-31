@@ -1,0 +1,65 @@
+.logo{
+    margin-left: 10%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+}
+
+li{
+    float: left;
+    margin-right: 20px;
+}
+
+.container{
+    display: block; 
+    margin-top: 150px;
+}
+
+.box1{
+    display: inline-block;
+    font-size: 25pt;
+    margin-left: 10%;
+}
+
+#insta{
+    list-style-image: url(./assets/instagram.svg);
+    margin-right: 45px;
+}
+
+#linkedin{
+    list-style-image: url(./assets/linkedin.svg);
+    margin-right: 45px;
+}
+
+#twitter{
+    list-style-image: url(./assets/twitter.svg);
+    margin-right: 45px;
+}
+
+input[type="submit"]{
+    color:#FFFFFF;
+    background-color: #FCA60F; 
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.box2{
+    float: right;
+    margin-right: 25%;
+
+}
+
+.down{
+    text-align: center;
+    margin-top: 60px;
+}
