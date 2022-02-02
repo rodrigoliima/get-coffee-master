@@ -10,6 +10,10 @@
     margin-right: 10%;
 }
 
+.text{
+    max-width: 500px;
+}
+
 li{
     float: left;
     margin-right: 20px;
@@ -23,7 +27,7 @@ li{
 .box1{
     display: inline-block;
     font-size: 25pt;
-    margin-left: 10%;
+    margin-left: 10%;   
 }
 
 #insta{
@@ -51,15 +55,72 @@ input[type="submit"]{
     font-weight: bold;
     border-radius: 10px;
     border-style: hidden;
+    cursor: pointer;
 }
 
 .box2{
     float: right;
     margin-right: 25%;
-
 }
 
 .down{
     text-align: center;
     margin-top: 60px;
+}
+
+/*@media screen and (max-width: 1000px){
+ajeietar a imagem do cafe enquando a pagina diiminui
+}*/
+
+@media screen and ( max-width: 420px) {
+
+    .logo{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu{ 
+        list-style: none;
+        float: none;
+        display: flex;
+        justify-content: center
+    }
+
+    li{
+        margin: 25px;
+        text-align: center;
+    }
+
+    .container{
+        display: block; 
+        margin-top: 0px;
+    }
+
+    .text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .media{
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .down{
+        display: none;
+    }
+
 }
