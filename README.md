@@ -1,4 +1,4 @@
-# get-coffee-master
+# Get-coffee-master
 
 Landing page from an online coffee shop(DevChallenge)
 
